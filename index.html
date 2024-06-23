@@ -1,0 +1,708 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Blog Home - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+       
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow sticky-top">
+            <div class="container px-3 logoArea">
+                <a class="navbar-brand fw-bold" href="index.html" id="logoName">TOP ONE
+                <p class="logoMiniText text-muted fw-normal">English Learning Platform</p>
+                </a>
+                
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 " id="navItems">
+                        <li class="nav-item me-2" ><a class="nav-link fw-bold" href="index.html" >Home</a></li>
+                        <li class="nav-item me-2"><a class="nav-link fw-bold" href="course.html">Courses</a></li>
+                        <li class="nav-item me-2"><a class="nav-link fw-bold" href="about.html">About</a></li>
+                        <li class="nav-item me-2"><a class="nav-link fw-bold" href="#!">Contact</a></li>
+                        <!-- <form class="d-flex" role="search">
+                            
+                            <input class="form-control me-2" type="search" placeholder="Search Courses" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form> -->
+                        <a href="/login" class="btn rounded-pill px-4 mx-2" id="loginBtn">Login</a>
+                    <a href="/register" class="btn rounded-pill" id="registerBtn">Register</a>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page header with logo and tagline-->
+    <header class="mb-5">
+                <!-- <div class="container-fluid">
+                    <img src="https://i0.wp.com/www.nylon.com.sg/wp-content/uploads/2023/01/uniqlo-u-ss23-banner-scaled.jpg?fit=2560%2C990&quality=89&ssl=1" alt="" class="img-fluid">
+                </div> -->
+            
+            
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel" >
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/onlinelearn.jpg" class="d-block w-100 carousel_image" alt="...">
+                
+                <div class="carousel_text shadow d-none d-md-block py-5 px-5">
+                    <h2 class="fw-bold">WELCOME TO <br>Top One e-learning! </h3>
+                    <p class="smaller fw-normal">Join now and get the course to learn, self study is less stress <br>Learn anywhere & anytime</p>
+                    <div class="mt-4">
+                        <a class="readMoreBtn px-3 py-2 text-decoration-none me-1" href="course.html" >Explore more</a>
+                        <a class="joinBtn px-3 py-2 text-decoration-none " href="payment.html" >Join Now</a>
+
+                    </div>
+                
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/onlinelearn2.jpg" class="d-block w-100 " alt="...">
+                <div class="carousel_text shadow d-none d-md-block py-5 px-5">
+                    <h2 class="fw-bold">Study from Home <br>with your devices! </h3>
+                    <p class="smaller fw-normal">Join now and start to learn <br>Learn anywhere & anytime</p>
+                    <div class="mt-4">
+                       
+                        <a class="readMoreBtn px-3 py-2 text-decoration-none " href="login.html" >Join Now</a>
+
+                    </div>
+                
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/onlinelearn3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel_text shadow d-none d-md-block py-5 px-5">
+                    <h2 class="fw-bold">Study and pratice <br>with expert teachers!</h3>
+                    <p class="smaller fw-normal">Follow the instruction from lecture videos.</p>
+                    <div class="mt-4">
+                        <a class="readMoreBtn px-3 py-2 text-decoration-none me-1" href="course.html" >Go to course</a>
+                        
+
+                    </div>
+                
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+                    
+            <!-- <div class="container px-4 px-lg-5 my-5">
+                
+                <div class="text-center text-white">
+                    <h1 class="display-4 fw-bolder">Shop in style</h1>
+                    <p class="lead fw-normal text-white-50 mb-0">With this shop hompeage template</p>
+                </div>
+            </div> -->
+     </header>
+        <!-- Page content-->
+            
+    <section class="container-fluid mb-4">
+        <h2 class="titles text-center fw-bold">Popular Courses</h2>
+        <div class="px-5 mx-5 mt-3">
+        <div>
+            
+                <form class="d-flex">
+                    <input type="search" class="form-control me-2" placeholder="Search courses" style="max-height:40px;">
+                    <a href="" class="searchBtn px-4 py-1 text-decoration-none" style="max-height:40px;">Search</a>
+
+                </form>
+
+        </div>
+    </div>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <div class="container px-5">
+                        <div class="row row-cols-1 row-cols-md-4 mt-5 card-wrapper">
+                            <!-- Blog entries-->
+                            
+                            <div class="col">
+                                <!-- Featured blog post-->
+                                <div class="card mx-2 mb-4 shadow cardCol">
+                                    <a href="#!"><img class="card-img-top" src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/XDP/XDP~SPECIALIZATION!~intermediate-grammar/XDP~SPECIALIZATION!~intermediate-grammar.jpeg" alt="..." /></a>
+                                    <div class="card-body inline">
+                                        <div class="card-title fw-bold fs-7">Intermediate Course</div>
+                                        <div class="small text-muted"><i class="bi bi-journal me-2"></i>Edition:1 <span class="vr mx-3"></span><span class="small text-muted"><i class="bi bi-file-earmark-text me-2"></i>Module: 10</span></div>
+                                        <span class="text-muted cardCategoryText"><i class="bi bi-hdd-stack me-2"></i>Intermediate Level</span>
+                                        <p class="cardText mt-2">This course is about English 4 skills related to intermediate level.</p>
+                                        
+                                        <!-- <span class="small ">
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+
+                                            <i class="bi bi-star-half text-warning small"></i>
+                                        </span> -->
+                                        <div class="float-end my-2">
+                                            <a class="readMoreBtn px-3 py-2 text-decoration-none me-1" href="coursedetail.html" >Read more</a>
+                                            <a class="joinBtn px-3 py-2 text-decoration-none " href="payment.html" >Join Now</a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div> 
+
+                            <div class="col">
+                                <!-- Featured blog post-->
+                                <div class="card mx-2 mb-4 shadow cardCol">
+                                    <a href="#!"><img class="card-img-top" src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/XDP/XDP~COURSE!~english-intermediate-b1-2/XDP~COURSE!~english-intermediate-b1-2.jpeg" alt="..." /></a>
+                                    <div class="card-body inline">
+                                        <div class="card-title fw-bold fs-7">Intermediate Course</div>
+                                        <div class="small text-muted"><i class="bi bi-journal me-2"></i>Edition:1 <span class="vr mx-3"></span><span class="small text-muted"><i class="bi bi-file-earmark-text me-2"></i>Module: 10</span></div>
+                                        <span class="text-muted cardCategoryText"><i class="bi bi-hdd-stack me-2"></i>Intermediate Level</span>
+                                        <p class="cardText mt-2">This course is about English 4 skills related to intermediate level.</p>
+                                        
+                                        <!-- <span class="small ">
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+
+                                            <i class="bi bi-star-half text-warning small"></i>
+                                        </span> -->
+                                        <div class="float-end my-2">
+                                            <a class="readMoreBtn px-3 py-2 text-decoration-none me-1" href="coursedetail.html" >Read more</a>
+                                            <a class="joinBtn px-3 py-2 text-decoration-none " href="payment.html" >Join Now</a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div> 
+
+                            <div class="col">
+                                <!-- Featured blog post-->
+                                <div class="card mx-2 mb-4 shadow cardCol">
+                                    <a href="#!"><img class="card-img-top" src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/XDP/XDP~SPECIALIZATION!~intermediate-grammar/XDP~SPECIALIZATION!~intermediate-grammar.jpeg" alt="..." /></a>
+                                    <div class="card-body inline">
+                                        <div class="card-title fw-bold fs-7">Intermediate Course</div>
+                                        <div class="small text-muted"><i class="bi bi-journal me-2"></i>Edition:1 <span class="vr mx-3"></span><span class="small text-muted"><i class="bi bi-file-earmark-text me-2"></i>Module: 10</span></div>
+                                        <span class="text-muted cardCategoryText"><i class="bi bi-hdd-stack me-2"></i>Intermediate Level</span>
+                                        <p class="cardText mt-2">This course is about English 4 skills related to intermediate level.</p>
+                                        
+                                        <!-- <span class="small ">
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+
+                                            <i class="bi bi-star-half text-warning small"></i>
+                                        </span> -->
+                                        <div class="float-end my-2">
+                                            <a class="readMoreBtn px-3 py-2 text-decoration-none me-1" href="coursedetail.html" >Read more</a>
+                                            <a class="joinBtn px-3 py-2 text-decoration-none " href="payment.html" >Join Now</a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div> 
+                            
+                            <div class="col">
+                                <!-- Featured blog post-->
+                                <div class="card mx-2 mb-4 shadow cardCol">
+                                    <a href="#!"><img class="card-img-top" src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/XDP/XDP~COURSE!~english-intermediate-b1-2/XDP~COURSE!~english-intermediate-b1-2.jpeg" alt="..." /></a>
+                                    <div class="card-body inline">
+                                        <div class="card-title fw-bold fs-7">Intermediate Course</div>
+                                        <div class="small text-muted"><i class="bi bi-journal me-2"></i>Edition:1 <span class="vr mx-3"></span><span class="small text-muted"><i class="bi bi-file-earmark-text me-2"></i>Module: 10</span></div>
+                                        <span class="text-muted cardCategoryText"><i class="bi bi-hdd-stack me-2"></i>Intermediate Level</span>
+                                        <p class="cardText mt-2">This course is about English 4 skills related to intermediate level.</p>
+                                        
+                                        <!-- <span class="small ">
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+
+                                            <i class="bi bi-star-half text-warning small"></i>
+                                        </span> -->
+                                        <div class="float-end my-2">
+                                            <a class="readMoreBtn px-3 py-2 text-decoration-none me-1" href="coursedetail.html" >Read more</a>
+                                            <a class="joinBtn px-3 py-2 text-decoration-none " href="payment.html" >Join Now</a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div> 
+                            
+                            
+                        </div>
+                    </div>
+
+                </div>   
+
+            <div class="carousel-item">
+                <div class="container px-5">
+                <div class="row row-cols-1 row-cols-md-4 mt-5 card-wrapper">
+                            <!-- Blog entries-->
+                            
+                            <div class="col">
+                                <!-- Featured blog post-->
+                                <div class="card mx-2 mb-4 shadow cardCol">
+                                    <a href="#!"><img class="card-img-top" src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/XDP/XDP~COURSE!~english-intermediate-b1-2/XDP~COURSE!~english-intermediate-b1-2.jpeg" alt="..." /></a>
+                                    <div class="card-body inline">
+                                        <div class="card-title fw-bold fs-7">Intermediate Course</div>
+                                        <div class="small text-muted"><i class="bi bi-journal me-2"></i>Edition:1 <span class="vr mx-3"></span><span class="small text-muted"><i class="bi bi-file-earmark-text me-2"></i>Module: 10</span></div>
+                                        <span class="text-muted cardCategoryText"><i class="bi bi-hdd-stack me-2"></i>Intermediate Level</span>
+                                        <p class="cardText mt-2">This course is about English 4 skills related to intermediate level.</p>
+                                        
+                                        <!-- <span class="small ">
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+
+                                            <i class="bi bi-star-half text-warning small"></i>
+                                        </span> -->
+                                        <div class="float-end my-2">
+                                            <a class="readMoreBtn px-3 py-2 text-decoration-none me-1" href="coursedetail.html" >Read more</a>
+                                            <a class="joinBtn px-3 py-2 text-decoration-none " href="payment.html" >Join Now</a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="col">
+                                <!-- Featured blog post-->
+                                <div class="card mx-2 mb-4 shadow cardCol">
+                                    <a href="#!"><img class="card-img-top" src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/XDP/XDP~SPECIALIZATION!~intermediate-grammar/XDP~SPECIALIZATION!~intermediate-grammar.jpeg" alt="..." /></a>
+                                    <div class="card-body inline">
+                                        <div class="card-title fw-bold fs-7">Intermediate Course</div>
+                                        <div class="small text-muted"><i class="bi bi-journal me-2"></i>Edition:1 <span class="vr mx-3"></span><span class="small text-muted"><i class="bi bi-file-earmark-text me-2"></i>Module: 10</span></div>
+                                        <span class="text-muted cardCategoryText"><i class="bi bi-hdd-stack me-2"></i>Intermediate Level</span>
+                                        <p class="cardText mt-2">This course is about English 4 skills related to intermediate level.</p>
+                                        
+                                        <!-- <span class="small ">
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+
+                                            <i class="bi bi-star-half text-warning small"></i>
+                                        </span> -->
+                                        <div class="float-end my-2">
+                                            <a class="readMoreBtn px-3 py-2 text-decoration-none me-1" href="coursedetail.html" >Read more</a>
+                                            <a class="joinBtn px-3 py-2 text-decoration-none " href="payment.html" >Join Now</a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="col">
+                                <!-- Featured blog post-->
+                                <div class="card mx-2 mb-4 shadow cardCol">
+                                    <a href="#!"><img class="card-img-top" src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/XDP/XDP~COURSE!~english-intermediate-b1-2/XDP~COURSE!~english-intermediate-b1-2.jpeg" alt="..." /></a>
+                                    <div class="card-body inline">
+                                        <div class="card-title fw-bold fs-7">Intermediate Course</div>
+                                        <div class="small text-muted"><i class="bi bi-journal me-2"></i>Edition:1 <span class="vr mx-3"></span><span class="small text-muted"><i class="bi bi-file-earmark-text me-2"></i>Module: 10</span></div>
+                                        <span class="text-muted cardCategoryText"><i class="bi bi-hdd-stack me-2"></i>Intermediate Level</span>
+                                        <p class="cardText mt-2">This course is about English 4 skills related to intermediate level.</p>
+                                        
+                                        <!-- <span class="small ">
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+
+                                            <i class="bi bi-star-half text-warning small"></i>
+                                        </span> -->
+                                        <div class="float-end my-2">
+                                            <a class="readMoreBtn px-3 py-2 text-decoration-none me-1" href="coursedetail.html" >Read more</a>
+                                            <a class="joinBtn px-3 py-2 text-decoration-none " href="payment.html" >Join Now</a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="col">
+                                <!-- Featured blog post-->
+                                <div class="card mx-2 mb-4 shadow cardCol">
+                                    <a href="#!"><img class="card-img-top" src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/XDP/XDP~SPECIALIZATION!~intermediate-grammar/XDP~SPECIALIZATION!~intermediate-grammar.jpeg" alt="..." /></a>
+                                    <div class="card-body inline">
+                                        <div class="card-title fw-bold fs-7">Intermediate Course</div>
+                                        <div class="small text-muted"><i class="bi bi-journal me-2"></i>Edition:1 <span class="vr mx-3"></span><span class="small text-muted"><i class="bi bi-file-earmark-text me-2"></i>Module: 10</span></div>
+                                        <span class="text-muted cardCategoryText"><i class="bi bi-hdd-stack me-2"></i>Intermediate Level</span>
+                                        <p class="cardText mt-2">This course is about English 4 skills related to intermediate level.</p>
+                                        
+                                        <!-- <span class="small ">
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+                                            <i class="bi bi-star-fill text-warning small"></i>
+
+                                            <i class="bi bi-star-half text-warning small"></i>
+                                        </span> -->
+                                        <div class="float-end my-2">
+                                            <a class="readMoreBtn px-3 py-2 text-decoration-none me-1" href="coursedetail.html" >Read more</a>
+                                            <a class="joinBtn px-3 py-2 text-decoration-none " href="payment.html" >Join Now</a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div> 
+                            
+                            
+                        </div>
+                </div>
+
+            </div>
+
+        </div>
+            <button class="carousel-control-prev carousel-dark" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon me-5" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next carousel-dark " type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon ms-5" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+
+    </section>
+        <hr class="container">
+    <!-- category section  -->
+    <section class="container">
+            <div class="my-4">
+                <h2 class="titles text-center mt-4 fw-bold">Categories</h2>
+                <!-- <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col px-4">
+                        <div class="card" style="max-width: 540px; ">
+                            <div class="row g-0">
+                                <div class="col-md-4 ">
+                                    <img src="https://ichef.bbci.co.uk/images/ic/480xn/p0d1d11h.jpg" alt="" class="img-fluid rounded-start" >
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <p class="fw-bold">Beginner Level </p>
+                                        
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div> -->
+                <div class="container text-center px-5 mt-3">
+                    <div class="row ">
+                        <div class="col col-12 col-md-4 p-3 d-grid gap-2 px-5">
+                            <!-- <a href="" class="cateBtn text-decoration-none text-center">Beginner</a> -->
+                            <div class="card " style="max-width:28em; flex-direction:row; padding:3px; height:auto;">
+                                <img src="https://freedesignfile.com/upload/2018/12/blue-abstract-background-vector-graphic-39281.png" class="card-img" alt="" style="max-width:22%;">
+                                <div class="card-body text-start">
+                                    <h5 class="ms-3 mt-1">Beginner Level</h5>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col col-12 col-md-4 p-3 d-grid gap-2 px-5 ">
+                            <!-- <a href="" class="btn ">Intermediate</a> -->
+                            <div class="card " style="max-width:28em; flex-direction:row; padding:3px; height:auto;">
+                                <img src="https://wallpaperswide.com/download/abstract_background_4-wallpaper-1024x1024.jpg" class="card-img" alt="" style="max-width:22%;">
+                                <div class="card-body text-start">
+                                    <h5 class="ms-3 mt-1">Intermediate Level</h5>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col col-12 col-md-4 p-3 d-grid gap-2 px-5">
+                            <!-- <a href="" class="btn">Advanced</a> -->
+                            <div class="card " style="max-width:28em; flex-direction:row; padding:3px; height:auto;">
+                                <img src="https://wallpaperswide.com/download/blue_wavy_background-wallpaper-2048x2048.jpg" class="card-img" alt="" style="max-width:22%;">
+                                <div class="card-body text-start">
+                                    <h5 class="ms-3 mt-1">Advanced Level</h5>
+                                </div>
+
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="row ">
+                        <div class="col d-none d-sm-block col-md-4 p-3 d-grid gap-2 px-5">
+                        <div class="card " style="max-width:28em; flex-direction:row; padding:3px; height:auto;">
+                                <img src="https://freedesignfile.com/upload/2018/12/blue-abstract-background-vector-graphic-39281.png" class="card-img" alt="" style="max-width:22%;">
+                                <div class="card-body text-start">
+                                    <h5 class="ms-3 mt-1">Beginner Level</h5>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col d-none d-sm-block col-md-4 p-3 d-grid gap-2 px-5">
+                        <div class="card " style="max-width:28em; flex-direction:row; padding:3px; height:auto;">
+                                <img src="https://wallpaperswide.com/download/abstract_background_4-wallpaper-1024x1024.jpg" class="card-img" alt="" style="max-width:22%;">
+                                <div class="card-body text-start">
+                                    <h5 class="ms-3 mt-1">Intermediate Level</h5>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col d-none d-sm-block col-md-4 p-3 d-grid gap-2 px-5">
+                        <div class="card " style="max-width:28em; flex-direction:row; padding:3px; height:auto;">
+                                <img src="https://wallpaperswide.com/download/blue_wavy_background-wallpaper-2048x2048.jpg" class="card-img" alt="" style="max-width:22%;">
+                                <div class="card-body text-start">
+                                    <h5 class="ms-3 mt-1">Advanced Level</h5>
+                                </div>
+
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="container px-3">
+       <div class="card py-3 ">
+            <div class="row mx-4 mt-3 ">
+
+                <div class="col col-12 col-md-5 mb-3 px-3">
+                    <img src="https://img.freepik.com/premium-photo/asian-girl-student-online-learning-class-study-online-video-call-zoom-teacher-happy-asian-girl-learn-english-language-online-with-computer-laptop_49553-2600.jpg" class="img-fluid" alt="">
+                </div> 
+                
+                <div class="col col-12 col-md-7 mb-3 px-4">
+                    <h1 class="fw-bold">Take the next step <br>
+                        toward your English level and <br>
+                        professional goals with Top One.</h1>
+                        <p class="small mt-3">Join now to receive personalized recommendations <br>
+                        from the full Top One catalog.</p>
+                        <a href="" class="btn btn-sm btn-primary px-3">Join Now</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-3 mb-3 text-light rounded mt-5" style="background-color:#152f54;">
+            <h2 class="titles text-center text-light fw-bold ">See What We Offer</h2>
+            <div class="row my-4 ">
+                <div class="col col-sm-12 col-md-4 px-4 py-2 text-center">
+                    <img src="https://soeonline.american.edu/wp-content/uploads/sites/2/2019/03/au-blog-refresh-how-to-become-an-online-teacher.jpeg" alt="" class="offerImage rounded">
+                    <div class="offertext px-4 py-2 mt-3">
+                        <h4>Live Class</h4>
+                        <p class="small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate impedit corrupti distinctio quis, temporibus natus illo unde error rem doloremque perferendis ad illum dolore aliquam molestiae commodi corporis itaque expedita?</p>
+                    </div>
+
+                </div>
+
+                <div class="col col-sm-12 col-md-4 px-4 py-2 text-center">
+                    <img src="https://www.photographytalk.com/images/articles/2021/05/03/teaching_online_photography_classes.jpg" alt="" class="offerImage rounded">
+                    <div class="offertext px-4 py-2 mt-3">
+                        <h4>Learn Anytime with Videos</h4>
+                        <p class="small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate impedit corrupti distinctio quis, temporibus natus illo unde error rem doloremque perferendis ad illum dolore aliquam molestiae commodi corporis itaque expedita?</p>
+                       
+                    </div>
+
+                </div>
+                <div class="col col-sm-12 col-md-4 px-4 py-2 text-center">
+                    
+                    <img src="https://img.freepik.com/premium-photo/group-happy-multiracial-students-studying-together-distance-learning-online-education-concept_207258-199.jpg" alt="" class="offerImage rounded">
+                    <div class="offertext px-4 py-2 mt-3">
+                        <h4>Pratice Session</h4>
+                        <p class="small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate impedit corrupti distinctio quis, temporibus natus illo unde error rem doloremque perferendis ad illum dolore aliquam molestiae commodi corporis itaque expedita?</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <hr>
+    </section>
+
+    <section class="container py-3 mb-3">
+        <div>
+            <h2 class="titles text-center fw-bold">From Top One Community</h2>
+            <h5 class="text-center ">100+ people have already joined Top One</h5>
+        </div>
+        
+        <div class="container px-5">
+            <div class="row mt-5 px-5">
+                <div class="col col-sm-12 col-md-4 text-center px-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMoq6iroLlIGhcYOLuvamtYgyO2u1Cr632jw&s" alt="" class="cycleProf">
+                    <h5 class="mt-3">Jack</h5>
+                    <p>Yangon</p>
+                    <div class="px-4">
+                        <p class="small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente beatae facere placeat, excepturi soluta modi blanditiis iusto tenetur porro assumenda eaque impedit adipisci animi aspernatur.</p>
+                        <hr>
+                    </div>
+                    
+                </div>
+
+                <div class="col col-sm-12 col-md-4 text-center px-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT40E_3gCEw8sbSXjkrvOF0w4EP-CD-KwqHsA38N2bVObqqpMH6jDuwXdu_bQACeMCLp5k&usqp=CAU" alt="" class="cycleProf">
+                    <h5 class="mt-3">Ella</h5>
+                    <p>Taunggyi</p>
+                    <div class="px-4">
+                        <p class="small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente beatae facere placeat, excepturi soluta modi blanditiis iusto tenetur porro assumenda eaque impedit adipisci animi aspernatur.</p>
+                        <hr>
+                    </div>
+                    
+                </div>
+                
+                <div class="col col-sm-12 col-md-4 text-center px-3">
+                    <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgN4BdHpZfSG1HOfiTOoZUWfE4ePAINuSwmdAITgDtF4fS2pceiLxmwiCE5XKe11vUCI&usqp=CAU" alt="" class="cycleProf">
+                    <h5 class="mt-3">Aimy </h5>
+                    <p>Mandalay</p>
+                    <div class="px-4">
+                        <p class="small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente beatae facere placeat, excepturi soluta modi blanditiis iusto tenetur porro assumenda eaque impedit adipisci animi aspernatur.</p>
+                        <hr>
+                    </div>
+                    
+                </div>
+
+
+            </div>
+       
+        </div>
+    </section>
+
+    <section class="container py-3 mb-3">
+        <div class="row px-5">
+            <div class="col d-none d-sm-block px-5">
+                <div class="card mx-5 text-light" style="background-color:#152f54;">
+                    <div class="row px-5">
+                        <div class="col col-12 col-md-6 px-5 py-4">
+                            <h2 class="mt-4 fw-bold">Start learning to upgrade <br> your English skills <br> right now on your device!</h2>
+                            <div class="mt-4">
+                                <a href="" class="btn btn-sm btn-outline-light px-4">Join Now</a>
+                            </div>
+                            
+                        </div>
+                        <div class="col col-12 col-md-6">
+                            <img src="images/girlpng.png" class="img-fluid" alt="">
+                        </div>
+                        
+                    </div>
+                    
+                    
+
+                </div>
+
+            </div>
+            <div class="col d-sm-block d-md-none">
+                <div class="card text-light" style="background-color:#152f54;">
+                    <div class="row px-4">
+                        <div class="col col-12  px-5 py-4">
+                            <h2 class="mt-4">Start learning to upgrade <br> your English skills <br> right now on your device!</h2>
+                            <div class="mt-4">
+                                <a href="" class="btn btn-sm btn-outline-light px-4">Join Now</a>
+                            </div>
+                            
+                        </div>
+                        <div class="col col-12 col-md-6">
+                            <img src="images/girlpng.png" class="img-fluid" alt="">
+                        </div>
+                        
+                    </div>
+                    
+                    
+
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+
+ <!-- footer  -->
+ <!-- Footer-->
+<!-- <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+        </footer> -->
+<div class="container-fluid footerContainer px-5 py-3" style="background-color: #212529; color:#1364b5;">
+    <footer class="footerSection py-2">
+      <div class="row">
+        <div class="col-6 col-md-3 mb-3">
+          <h5>Top One</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Popular Courses</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Beginner</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Intermediate</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Advanced</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-3 mb-3">
+          <h5>More</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Categories</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Further extension</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-5 offset-md-1 mb-3 text-light">
+          <form>
+            <h5>Subscribe to get updates</h5>
+            <p class="text-secondary">Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="subscriBtn" type="button">Subscribe</button>
+              
+              
+            </div>
+            <div class="mt-4">
+                  <!-- <a href="" class="text-light"><i class="bi bi-facebook"></i></a>
+                  <i class="bi bi-telegram"></i> -->
+                  <a href="" class="me-3"><img src="images/facebookicon.png" alt="" style="width:30px; height:30px;"></a>
+                  <a href="" class="me-3"><img src="images/telegramicon.png" alt="" style="width:30px; height:30px;"></a>
+                  <a href="" class="me-3"><img src="images/gmailicon.png" alt="" style="width:30px; height:30px;"></a>
+                  <a href="" class="me-3"><img src="images/vibericon.png" alt="" style="width:30px; height:30px;"></a>
+                  
+  
+              </div>
+          </form>
+        </div>
+      </div>
+  
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-2 my-2 border-top text-light">
+        <p class="small "> &copy; 2024 Top One Company, Inc. All rights reserved.</p>
+        
+      </div>
+    </footer>
+  </div>
+  
+          <!-- Bootstrap core JS-->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+          
+          <!-- Core theme JS-->
+          <script src="{{asset('js/scripts.js')}}"></script>
+  
+      </body>
+  </html>
+
+
+
+        
+        
+
