@@ -107,6 +107,7 @@ body {
 /* private code open */
 .cardCol{
   transition: all 0.3s;
+  text-align: left;
 }
 .cardCol:hover{
   transform:scale(1.05);
@@ -167,14 +168,18 @@ color:#0a53be;
 
 }
 
+
+
+ 
+
 #loginBtn{
   color:#0c3a7e;
   background-color:#f8f9fa;
   border: none;
-  font-size:small;
+  /* font-size:smaller;
   height: 35px;
   margin-top: 3px;
-  font-weight: bold;
+  font-weight: bold; */
   align-items: center;
 
 }
@@ -189,10 +194,10 @@ color:#0a53be;
   color:#0c3a7e;
   background-color:#f8f9fa;
   border:1px, solid, #0c3a7e;
-  font-size:small;
+  /* font-size:smaller;
   height: 35px;
   margin-top: 3px;
-  font-weight: bold;
+  font-weight: bold; */
   align-items: center;
 }
 #registerBtn:hover{
@@ -214,14 +219,50 @@ color:#0a53be;
   background-color: #0f4391;
   border:1px, solid, #0f4391;
   border-radius: 3px;
+
+  
+
   
   
 }
+
+.carouselBtn{
+  color:#f8f9fa;
+  background-color: #0f4391;
+  border:1px, solid, #0f4391;
+ 
+  border-radius: 3px;
+  
+}
+.carouselBtn:hover{
+  background-color:#275daf;
+  border:1px, solid, #275daf;
+  color:#f8f9fa;
+}
+
+.carouJoinBtn{
+  color:#f8f9fa;
+  background-color: transparent;
+  border:1px, solid, #f8f9fa;
+  
+  border-radius: 3px;
+ 
+}
+
+.carouJoinBtn:hover{
+  background-color:#f8f9fa;
+  border:1px, solid, #f8f9fa;
+  color:#000000;
+}
+
+
 .searchBtn:hover{
   background-color:#275daf;
   border:1px, solid, #275daf;
   color:#f8f9fa;
 }
+
+
 .readMoreBtn{
   color:#f8f9fa;
   background-color: #0f4391;
