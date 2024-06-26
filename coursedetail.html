@@ -10,6 +10,7 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/bootstrapicon.css" rel="stylesheet" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
        
     </head>
@@ -26,7 +27,14 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 " id="navItems">
                         <li class="nav-item me-2" ><a class="nav-link fw-bold" href="index.html" >Home</a></li>
-                        <li class="nav-item me-2"><a class="nav-link fw-bold" href="course.html">Courses</a></li>
+                        <li class="nav-item dropdown me-2"><a class="nav-link dropdown-toggle fw-bold" data-bs-auto-close="outside" data-bs-toggle="dropdown" role="button" href="course.html">Courses</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="course.html">Beginner</a></li>
+                                <li><a class="dropdown-item" href="course.html">Intermediate</a></li>
+                                <li><a class="dropdown-item" href="course.html">Advanced</a></li>
+
+                                </ul>
+                        </li>
                         <li class="nav-item me-2"><a class="nav-link fw-bold" href="about.html">About</a></li>
                         <li class="nav-item me-2"><a class="nav-link fw-bold" href="#!">Contact</a></li>
                         <!-- <form class="d-flex" role="search">
@@ -34,8 +42,8 @@
                             <input class="form-control me-2" type="search" placeholder="Search Courses" aria-label="Search">
                             <button class="btn btn-outline-success" type="submit">Search</button>
                         </form> -->
-                        <a href="/login" class="btn rounded-pill px-4 mx-2" id="loginBtn">Login</a>
-                    <a href="/register" class="btn rounded-pill" id="registerBtn">Register</a>
+                        <a href="login.html" class="btn rounded-pill px-4 mx-2" id="loginBtn">Login</a>
+                        <a href="register.html" class="btn rounded-pill" id="registerBtn">Register</a>
                         
                     </ul>
                 </div>
@@ -291,7 +299,8 @@
   </div>
   
           <!-- Bootstrap core JS-->
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+          <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> -->
+          <script src="js/bootstrapbundle.js"></script>
   
           
           <!-- Core theme JS-->

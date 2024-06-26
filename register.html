@@ -33,7 +33,7 @@
                                 <li><a class="dropdown-item" href="course.html">Intermediate</a></li>
                                 <li><a class="dropdown-item" href="course.html">Advanced</a></li>
 
-                            </ul>
+                                </ul>
                         </li>
                         <li class="nav-item me-2"><a class="nav-link fw-bold" href="about.html">About</a></li>
                         <li class="nav-item me-2"><a class="nav-link fw-bold" href="#!">Contact</a></li>
@@ -43,7 +43,7 @@
                             <button class="btn btn-outline-success" type="submit">Search</button>
                         </form> -->
                         <a href="login.html" class="btn rounded-pill px-4 mx-2" id="loginBtn">Login</a>
-                        <a href="register.html" class="btn rounded-pill" id="registerBtn">Register</a>
+                    <a href="register.html" class="btn rounded-pill" id="registerBtn">Register</a>
                         
                     </ul>
                 </div>
@@ -53,55 +53,52 @@
 
 <div class="container-fluid p-4 px-5" style="background-image: url('https://cdn.vectorstock.com/i/500p/97/98/abstract-dark-blue-background-dynamic-shapes-vector-51159798.jpg'); background-size: cover;">
     <div class="row">
-        <div class="card mt-4 mb-4 col  col-sm-8 offset-sm-2 col-md-8 offset-md-2 col-xl-6 offset-xl-3 shadow">
+        <div class="card mt-5 mb-5 col pb-2 col-10 offset-1 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-xl-4 offset-xl-4 shadow">
                 <div class="card-body py-5">
                     <div class="row">
-                        <div class="offset-md-2 col-md-8">
+                        <div class="offset-md-1 col-md-10">
                             <form action="" enctype="multipart/form-data">
-                                <h2 class="titles fw-bold">Payment</h2>
+                                <h2 class="titles fw-bold text-center">Register</h2>
                             
                             
                                 
 
-                                <div class="mt-3 mb-3">
-                                <label for="payment_method" class="form-label titles">Method</label>
-                                    <select name="payment_method" class="form-control" id="">
-                                        <option value="">Choose Payment Method</option>
-                                        <option value="">KBZ Pay</option>
-                                        <option value="">AYA Pay</option>
-                                        <option value="">PayPal</option>
+                                
 
-                                    </select>
-                                </div>
-
-                                <div class="mb-3">
-                                    <label for="image" class="form-label titles">Slip Image</label>
-                                    <input type="file" accept="image/*" class="form-control" name="image" id="image">
-                                </div>
-
-                                <div class="mb-3">
-                                    <label for="fee" class="form-label titles">Course Fee</label>
-                                    <input type="text" class="form-control" name="fee" id="fee">
+                                
+                               
+                                <div class="my-4">
+                                    
+                                    <input type="text" class="form-control small" name="email" id="email" placeholder="Email">
                                     
                                 </div>
 
-                                <div class="mb-3">
-                                    <label for="note" class="form-label titles">Note</label>
-                                    <input type="text" class="form-control" name="note" id="note">
+                                <div class="my-4">
+                                   
+                                    <input type="password" class="form-control small" name="password" id="pasword" placeholder="Create Password">
                                     
                                 </div>
+
+                                <div class="my-4">
+                                   
+                                    <input type="password" class="form-control small" name="password" id="pasword" placeholder="Confirm Password">
+                                    
+                                </div>
+
+
+                                
+
                                 
                             
                                 
                                 
-                                <div class=" mt-2 inline">
+                                <div class=" mt-2">
                                     <!-- <a href="{{route('front.learn')}}" class="btn btn-success px-3 ">Go to the Course</a> -->
-                                <div class="float-end">
-                                    <!-- <a href="coursedetail.html" class="joinBtn px-4 py-2 text-decoration-none me-3" type="button">CANCEL</a>
-                                    <a href="mylearning.html" class="readMoreBtn px-4 py-2 text-decoration-none" type="submit">CHARGE</a> -->
-                                    <button class="btn btn-primary me-2" type="button" style="background-color:#f8f9fa ; color:#224f8d;border:1px solid #224f8d;">Cancel</button>
-                                    <button class="btn btn-primary" type="button" style="background-color:#224f8d; color:#f8f9fa ;border:none;">Charge</button>
-
+                                <div class="d-grid gap-2">
+                                    <button class="btn btn-primary" type="button" style="background-color:#224f8d; color:#f8f9fa ;border:none;">Register</button>
+                                </div>
+                                <div class="text-center my-4">
+                                    <a href="" class="titles small text-decoration-none">Already have an account? <span class="titles text-primary fw-bold"><a href="login.html" class="text-decoration-none fw-bold">Login</a></span></a>
                                 </div>
                                 
                             
